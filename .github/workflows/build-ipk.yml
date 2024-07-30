@@ -25,7 +25,9 @@ on:
       - 'root/**'
       - 'Makefile'
       - '.github/**'
-
+      
+  workflow_dispatch:
+  
   release:
     types:
       - published
